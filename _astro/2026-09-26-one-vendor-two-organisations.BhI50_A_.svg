@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 500" width="1200" height="500" role="img" aria-labelledby="t2 d2">
+  <title id="t2">One vendor, two organisations</title>
+  <desc id="d2">The program negotiates with the vendor's customer-facing customisation service, which adapts, but depends on the vendor's product organisation, which runs on its own roadmap and protects it from any single customer. Procurement's bonus and malus lever lands on the wrong box.</desc>
+  <defs>
+    <style>
+      text { font-family: "Plus Jakarta Sans Variable", "Plus Jakarta Sans", system-ui, -apple-system, "Segoe UI", sans-serif; fill: #1d3854; }
+      .h { font-size: 22px; font-weight: 700; }
+      .s { font-size: 16px; fill: rgba(29,56,84,0.7); }
+      .m { font-size: 14px; font-weight: 600; letter-spacing: 0.08em; fill: rgba(29,56,84,0.48); }
+      .box { fill: #f1e9dc; stroke: #1d3854; stroke-width: 2.5; }
+      .wall { fill: none; stroke: #1d3854; stroke-width: 2.5; stroke-dasharray: 12 8; }
+      .arrow { stroke: #1d3854; stroke-width: 2.5; fill: none; marker-end: url(#ah); }
+      .gold { stroke: #e2a944; stroke-width: 3; fill: none; marker-end: url(#ag); }
+      .g { fill: #8f6410; font-weight: 600; }
+    </style>
+    <marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1d3854"/></marker>
+    <marker id="ag" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#e2a944"/></marker>
+  </defs>
+
+  <!-- program -->
+  <text x="60" y="60" class="m">YOUR SIDE</text>
+  <rect class="box" x="60" y="80" width="300" height="220" rx="14"/>
+  <text x="210" y="150" class="h" text-anchor="middle">Strategic program</text>
+  <text x="210" y="182" class="s" text-anchor="middle">runs in cadences,</text>
+  <text x="210" y="206" class="s" text-anchor="middle">re-prioritises, expects agility</text>
+  <text x="210" y="248" class="s" text-anchor="middle" font-size="15">+ procurement,</text>
+  <text x="210" y="270" class="s" text-anchor="middle" font-size="15">holding bonus and malus</text>
+
+  <!-- vendor -->
+  <text x="520" y="60" class="m">THE VENDOR</text>
+  <rect class="wall" x="520" y="80" width="620" height="310" rx="18"/>
+  <rect class="box" x="550" y="110" width="270" height="170" rx="14"/>
+  <text x="685" y="170" class="h" text-anchor="middle">Customisation</text>
+  <text x="685" y="198" class="h" text-anchor="middle">service</text>
+  <text x="685" y="232" class="s" text-anchor="middle">customer-facing, adapts,</text>
+  <text x="685" y="256" class="s" text-anchor="middle">priced per release</text>
+
+  <rect class="box" x="850" y="110" width="260" height="170" rx="14"/>
+  <text x="980" y="170" class="h" text-anchor="middle">Product</text>
+  <text x="980" y="198" class="h" text-anchor="middle">organisation</text>
+  <text x="980" y="232" class="s" text-anchor="middle">own roadmap, whole community,</text>
+  <text x="980" y="256" class="s" text-anchor="middle">de-risks from any one customer</text>
+
+  <!-- flows -->
+  <path class="arrow" d="M360,160 L548,160"/>
+  <text x="450" y="146" class="s" text-anchor="middle" font-size="14">you negotiate here</text>
+  <path class="arrow" d="M820,195 L848,195"/>
+  <text x="835" y="300" class="s" text-anchor="middle" font-size="14">depends on</text>
+  <path class="gold" d="M300,300 C 380,370 700,380 760,370 C 900,350 950,320 975,285"/>
+  <text x="600" y="432" class="g" text-anchor="middle" font-size="15">bonus and malus lands here, and is declined: a roadmap cannot be owned by one customer</text>
+  <text x="600" y="462" class="s" text-anchor="middle" font-size="15">Nobody says this in the room. It is strategy, not bad faith.</text>
+</svg>
